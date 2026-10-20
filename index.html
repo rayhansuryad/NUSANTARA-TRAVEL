@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nusantara Travel | Paket Wisata Indonesia dengan Pemandu Lokal</title>
+  <meta name="description" content="Paket wisata Borobudur, Raja Ampat, dan Komodo dengan pemandu lokal. Hitung estimasi biaya, pilih add-on, lalu pesan dengan pembayaran aman.">
+  <meta name="theme-color" content="#14263f">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Nusantara Travel | Paket Wisata Indonesia">
+  <meta property="og:description" content="Paket wisata dengan pemandu lokal, harga transparan, dan kalkulator estimasi biaya.">
+  <meta property="og:image" content="assets/img/hero-bromo.jpg">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/plus-jakarta-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="a11y.skip">Lewati ke konten utama</a>
+
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Nusantara Travel, kembali ke atas">
+        <svg class="brand-mark" viewBox="0 0 44 40" aria-hidden="true" focusable="false">
+          <path d="M2 34 L16.5 7 L31 34" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linejoin="round"/>
+          <path d="M18 34 L28 14.5 L42 34 Z" fill="currentColor" opacity="0.82"/>
+        </svg>
+        <span class="brand-text">NUSANTARA<span class="brand-sub">TRAVEL</span></span>
+      </a>
+
+      <nav class="primary-nav" aria-label="Navigasi utama">
+        <a href="#paket" data-i18n="nav.packages">Paket Wisata</a>
+        <a href="#kalkulator" data-i18n="nav.calculator">Kalkulator Biaya</a>
+        <a href="#keunggulan" data-i18n="nav.why">Keunggulan</a>
+        <a href="#testimoni" data-i18n="nav.testimonials">Testimoni</a>
+        <a href="#kontak" data-i18n="nav.contact">Kontak</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang-switch" role="group" aria-label="Pilih bahasa / Choose language">
+          <button type="button" data-lang="id" aria-pressed="true">ID</button>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <a class="btn btn-primary btn-sm header-cta" href="#booking" data-i18n="nav.cta">Pesan Sekarang</a>
+        <button class="nav-toggle" type="button" id="nav-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Buka menu">
+          <span class="nav-toggle-bars" aria-hidden="true"><span></span><span></span><span></span></span>
+          <span class="nav-toggle-label" data-i18n="nav.menu">Menu</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-nav" id="mobile-nav" hidden>
+      <nav class="container mobile-nav-inner" aria-label="Navigasi seluler">
+        <a href="#paket" data-i18n="nav.packages">Paket Wisata</a>
+        <a href="#kalkulator" data-i18n="nav.calculator">Kalkulator Biaya</a>
+        <a href="#keunggulan" data-i18n="nav.why">Keunggulan</a>
+        <a href="#galeri" data-i18n="nav.gallery">Galeri</a>
+        <a href="#testimoni" data-i18n="nav.testimonials">Testimoni</a>
+        <a href="#booking" data-i18n="nav.cta">Pesan Sekarang</a>
+        <a href="#kontak" data-i18n="nav.contact">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <noscript>
+      <p class="noscript">Kalkulator dan formulir memerlukan JavaScript. Paket wisata dan kontak tetap bisa dilihat.</p>
+    </noscript>
+
+    <section class="hero" id="top">
+      <img class="hero-media" src="assets/img/hero-bromo.jpg" width="1920" height="843" fetchpriority="high" decoding="async"
+           alt="Lanskap Gunung Bromo dan Gunung Semeru saat matahari terbit di Jawa Timur" data-i18n-alt="hero.imageAlt">
+      <div class="hero-scrim" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <h1 data-i18n="hero.title">Jelajahi Indonesia tanpa ribet</h1>
+        <p class="hero-lead" data-i18n="hero.lead">Paket wisata dengan pemandu lokal, harga yang jelas di depan, dan pembayaran aman. Hitung dulu estimasi biayanya, baru pesan.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#paket" data-i18n="hero.cta1">Pesan Paket Wisata</a>
+          <a class="btn btn-ghost" href="#kalkulator" data-i18n="hero.cta2">Hitung Estimasi Biaya</a>
+        </div>
+        <p class="hero-note">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true" focusable="false">
+            <rect x="2.5" y="5" width="19" height="14" rx="2.5"/>
+            <path d="M2.5 10h19"/>
+          </svg>
+          <span data-i18n="hero.note">Pembayaran lewat transfer bank, QRIS, e-wallet, kartu kredit, dan PayPal.</span>
+        </p>
+      </div>
+    </section>
+
+    <section class="section section-value" id="keunggulan" aria-labelledby="value-title">
+      <div class="container">
+        <h2 class="sr-only" id="value-title" data-i18n="value.srTitle">Keunggulan utama</h2>
+        <div class="value-grid">
+          <article class="value-card">
+            <span class="value-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" focusable="false">
+                <path d="M6 21V3.5"/>
+                <path d="M6 4h9.5l-2.2 4 2.2 4H6"/>
+                <path d="M4 21h4"/>
+              </svg>
+            </span>
+            <h3 data-i18n="v1.title">Pemandu lokal</h3>
+            <p data-i18n="v1.text">Setiap trip didampingi pemandu yang tinggal di daerahnya dan menguasai rute, adat, serta cerita di balik tiap tempat.</p>
+          </article>
+          <article class="value-card">
+            <span class="value-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" focusable="false">
+                <path d="M5 3h14v18l-2.8-1.8L13.4 21 11 19.2 8.6 21 5.8 19.2 5 20V3z"/>
+                <path d="M9 8h6M9 12h6"/>
+              </svg>
+            </span>
+            <h3 data-i18n="v2.title">Harga transparan</h3>
+            <p data-i18n="v2.text">Rincian biaya tampil di kalkulator sebelum Anda memesan. Tidak ada biaya yang disembunyikan di akhir.</p>
+          </article>
+          <article class="value-card">
+            <span class="value-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" focusable="false">
+                <path d="M12 3l7 3v5c0 4.4-2.9 8.3-7 10-4.1-1.7-7-5.6-7-10V6l7-3z"/>
+                <path d="M9 12l2 2 4-4"/>
+              </svg>
+            </span>
+            <h3 data-i18n="v3.title">Pembayaran aman</h3>
+            <p data-i18n="v3.text">Bayar penuh atau DP 30% lewat kanal pembayaran resmi, dengan konfirmasi status setelah transaksi.</p>
+          </article>
+          <article class="value-card">
+            <span class="value-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" focusable="false">
+                <rect x="3" y="5" width="18" height="16" rx="2"/>
+                <path d="M8 3v4M16 3v4M3 10h18"/>
+                <path d="M10 15l-2 2 2 2M14 15l2 2-2 2"/>
+              </svg>
+            </span>
+            <h3 data-i18n="v4.title">Jadwal fleksibel</h3>
+            <p data-i18n="v4.text">Pilih tanggal sendiri, termasuk keberangkatan akhir pekan. Rombongan kantor bisa meminta jadwal khusus.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-packages" id="paket" aria-labelledby="packages-title">
+      <div class="container">
+        <header class="section-head section-head--dark">
+          <p class="section-label" data-i18n="packages.label">Katalog Paket</p>
+          <h2 id="packages-title" data-i18n="packages.title">Paket wisata unggulan</h2>
+          <p class="section-lead" data-i18n="packages.lead">Tiga rute yang paling sering dipesan, dari candi di Jawa sampai taman laut di Papua. Semua bisa disesuaikan.</p>
+          <p class="section-note" data-i18n="packages.note">Harga dan jadwal di halaman ini adalah data contoh untuk demo, bukan penawaran resmi.</p>
+        </header>
+
+        <div class="package-grid">
+          <article class="package-card">
+            <div class="package-media">
+              <img src="assets/img/dest-borobudur.jpg" width="1280" height="837" loading="lazy" decoding="async"
+                   alt="Candi Borobudur dikelilingi kabut pagi" data-i18n-alt="pkg.borobudur.alt">
+              <span class="package-duration" data-i18n="pkg.borobudur.duration">2 hari 1 malam</span>
+            </div>
+            <div class="package-body">
+              <p class="package-region" data-i18n="pkg.borobudur.region">Jawa Tengah</p>
+              <h3 data-i18n="pkg.borobudur.name">Borobudur dan Yogyakarta</h3>
+              <p class="package-desc" data-i18n="pkg.borobudur.desc">Matahari terbit di Borobudur, lalu menyusuri Prambanan dan gang Malioboro dalam dua hari.</p>
+              <ul class="package-facilities">
+                <li data-i18n="pkg.fac.guide">Pemandu lokal</li>
+                <li data-i18n="pkg.fac.transport">Transport lokal</li>
+                <li data-i18n="pkg.fac.stay">Akomodasi</li>
+              </ul>
+              <div class="package-foot">
+                <p class="package-price">
+                  <span data-i18n="packages.from">Mulai dari</span>
+                  <strong data-price-for="borobudur">Rp 1.850.000</strong>
+                  <small data-i18n="packages.per">/ orang</small>
+                </p>
+                <button class="btn btn-outline-light" type="button" data-package="borobudur" data-i18n="packages.cta">Hitung biaya paket ini</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="package-card">
+            <div class="package-media">
+              <img src="assets/img/dest-raja-ampat.jpg" width="1280" height="697" loading="lazy" decoding="async"
+                   alt="Gugusan pulau karst di Raja Ampat dilihat dari ketinggian" data-i18n-alt="pkg.rajaampat.alt">
+              <span class="package-duration" data-i18n="pkg.rajaampat.duration">4 hari 3 malam</span>
+            </div>
+            <div class="package-body">
+              <p class="package-region" data-i18n="pkg.rajaampat.region">Papua Barat</p>
+              <h3 data-i18n="pkg.rajaampat.name">Raja Ampat dan Piaynemo</h3>
+              <p class="package-desc" data-i18n="pkg.rajaampat.desc">Empat hari di kepulauan terpencil: karang dangkal, laguna biru, dan tanjakan Piaynemo saat matahari terbit.</p>
+              <ul class="package-facilities">
+                <li data-i18n="pkg.fac.guide">Pemandu lokal</li>
+                <li data-i18n="pkg.fac.boat">Kapal cepat</li>
+                <li data-i18n="pkg.fac.stay">Akomodasi</li>
+              </ul>
+              <div class="package-foot">
+                <p class="package-price">
+                  <span data-i18n="packages.from">Mulai dari</span>
+                  <strong data-price-for="rajaampat">Rp 6.750.000</strong>
+                  <small data-i18n="packages.per">/ orang</small>
+                </p>
+                <button class="btn btn-outline-light" type="button" data-package="rajaampat" data-i18n="packages.cta">Hitung biaya paket ini</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="package-card">
+            <div class="package-media">
+              <img src="assets/img/dest-komodo.jpg" width="1280" height="855" loading="lazy" decoding="async"
+                   alt="Komodo berjalan di atas pasir di Pulau Komodo" data-i18n-alt="pkg.komodo.alt">
+              <span class="package-duration" data-i18n="pkg.komodo.duration">3 hari 2 malam</span>
+            </div>
+            <div class="package-body">
+              <p class="package-region" data-i18n="pkg.komodo.region">Nusa Tenggara Timur</p>
+              <h3 data-i18n="pkg.komodo.name">Komodo dan Padar</h3>
+              <p class="package-desc" data-i18n="pkg.komodo.desc">Menyeberang dari Labuan Bajo untuk melihat komodo, Padar, dan pantai merah jambu dalam tiga hari.</p>
+              <ul class="package-facilities">
+                <li data-i18n="pkg.fac.guide">Pemandu lokal</li>
+                <li data-i18n="pkg.fac.boat">Kapal cepat</li>
+                <li data-i18n="pkg.fac.park">Tiket taman nasional</li>
+              </ul>
+              <div class="package-foot">
+                <p class="package-price">
+                  <span data-i18n="packages.from">Mulai dari</span>
+                  <strong data-price-for="komodo">Rp 4.250.000</strong>
+                  <small data-i18n="packages.per">/ orang</small>
+                </p>
+                <button class="btn btn-outline-light" type="button" data-package="komodo" data-i18n="packages.cta">Hitung biaya paket ini</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-calc" id="kalkulator" aria-labelledby="calc-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="section-label" data-i18n="calc.label">Kalkulator Biaya</p>
+          <h2 id="calc-title" data-i18n="calc.title">Hitung estimasi sebelum memesan</h2>
+          <p class="section-lead" data-i18n="calc.lead">Pilih paket, jumlah peserta, dan akomodasi. Angka di samping diperbarui saat Anda mengubah pilihan.</p>
+        </header>
+
+        <div class="calc-layout">
+          <form class="calc-form" id="calc-form" novalidate>
+            <fieldset class="fieldset">
+              <legend class="field-label" data-i18n="calc.dest">Destinasi</legend>
+              <select id="calc-destination" name="destination" aria-describedby="calc-dest-help">
+                <option value="borobudur">Borobudur dan Yogyakarta</option>
+                <option value="rajaampat">Raja Ampat dan Piaynemo</option>
+                <option value="komodo">Komodo dan Padar</option>
+                <option value="ubud">Ubud dan Tegalalang</option>
+                <option value="gili">Gili Islands</option>
+                <option value="bromo">Bromo dan Malang</option>
+              </select>
+              <p class="field-help" id="calc-dest-help" data-i18n="calc.destHelp">Harga dasar per orang sebelum akomodasi dan add-on.</p>
+            </fieldset>
+
+            <fieldset class="fieldset">
+              <legend class="field-label" data-i18n="calc.participants">Jumlah peserta</legend>
+              <div class="stepper">
+                <button class="stepper-btn" type="button" id="calc-minus" aria-label="Kurangi peserta" data-i18n-aria="calc.minus">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/></svg>
+                </button>
+                <input type="number" id="calc-participants" name="participants" value="2" min="1" max="30" step="1" inputmode="numeric" aria-label="Jumlah peserta" data-i18n-aria="calc.participants">
+                <button class="stepper-btn" type="button" id="calc-plus" aria-label="Tambah peserta" data-i18n-aria="calc.plus">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14"/></svg>
+                </button>
+              </div>
+              <p class="field-error" id="calc-error" role="alert" hidden></p>
+            </fieldset>
+
+            <fieldset class="fieldset">
+              <legend class="field-label" data-i18n="calc.accommodation">Kategori akomodasi</legend>
+              <div class="option-grid">
+                <label class="option">
+                  <input type="radio" name="accommodation" value="homestay">
+                  <span class="option-text">
+                    <span class="option-title" data-i18n="calc.acc.homestay">Homestay</span>
+                    <span class="option-note" data-i18n="calc.acc.homestay.note">Hemat 15%</span>
+                  </span>
+                </label>
+                <label class="option">
+                  <input type="radio" name="accommodation" value="star3" checked>
+                  <span class="option-text">
+                    <span class="option-title" data-i18n="calc.acc.star3">Bintang 3</span>
+                    <span class="option-note" data-i18n="calc.acc.star3.note">Harga dasar</span>
+                  </span>
+                </label>
+                <label class="option">
+                  <input type="radio" name="accommodation" value="star4">
+                  <span class="option-text">
+                    <span class="option-title" data-i18n="calc.acc.star4">Bintang 4</span>
+                    <span class="option-note" data-i18n="calc.acc.star4.note">+25%</span>
+                  </span>
+                </label>
+                <label class="option">
+                  <input type="radio" name="accommodation" value="star5">
+                  <span class="option-text">
+                    <span class="option-title" data-i18n="calc.acc.star5">Bintang 5</span>
+                    <span class="option-note" data-i18n="calc.acc.star5.note">+55%</span>
+                  </span>
+                </label>
+              </div>
+            </fieldset>
+
+            <fieldset class="fieldset">
+              <legend class="field-label" data-i18n="calc.addons">Layanan tambahan</legend>
+              <div class="option-grid option-grid--stack">
+                <label class="option">
+                  <input type="checkbox" name="addons" value="drone">
+                  <span class="option-text">
+                    <span class="option-title" data-i18n="calc.addon.drone">Dokumentasi drone</span>
+                    <span class="option-note" data-i18n="calc.addon.drone.note">+Rp 750.000 / trip</span>
+                  </span>
+                </label>
+                <label class="option">
+                  <input type="checkbox" name="addons" value="airport">
+                  <span class="option-text">
+                    <span class="option-title" data-i18n="calc.addon.airport">Penjemputan bandara</span>
+                    <span class="option-note" data-i18n="calc.addon.airport.note">+Rp 250.000 / orang</span>
+                  </span>
+                </label>
+                <label class="option">
+                  <input type="checkbox" name="addons" value="insurance">
+                  <span class="option-text">
+                    <span class="option-title" data-i18n="calc.addon.insurance">Asuransi perjalanan</span>
+                    <span class="option-note" data-i18n="calc.addon.insurance.note">+Rp 150.000 / orang</span>
+                  </span>
+                </label>
+                <label class="option">
+                  <input type="checkbox" name="addons" value="meals">
+                  <span class="option-text">
+                    <span class="option-title" data-i18n="calc.addon.meals">Makanan khusus</span>
+                    <span class="option-note" data-i18n="calc.addon.meals.note">+Rp 200.000 / orang</span>
+                  </span>
+                </label>
+              </div>
+            </fieldset>
+          </form>
+
+          <aside class="calc-summary" aria-labelledby="calc-summary-title">
+            <h3 id="calc-summary-title" data-i18n="calc.summaryTitle">Estimasi Anda</h3>
+            <p class="calc-empty" id="calc-empty" hidden data-i18n="calc.empty">Pilih paket dan jumlah peserta untuk melihat estimasi.</p>
+            <dl class="calc-breakdown" id="calc-breakdown"></dl>
+            <div class="calc-total">
+              <div>
+                <span class="calc-total-label" data-i18n="calc.total">Total estimasi</span>
+                <strong id="calc-total-value">Rp 0</strong>
+              </div>
+              <span class="calc-per" id="calc-per-person"></span>
+            </div>
+            <div class="calc-actions">
+              <button class="btn btn-light btn-block" type="button" id="calc-book" data-i18n="calc.cta">Pesan estimasi ini</button>
+              <button class="btn btn-ghost btn-block" type="button" id="calc-copy" data-i18n="calc.copy">Salin rincian</button>
+            </div>
+            <p class="calc-status" id="calc-status" role="status" aria-live="polite"></p>
+            <p class="calc-disclaimer" data-i18n="calc.disclaimer">Estimasi memakai harga contoh dan belum termasuk tiket pesawat. Total final dikonfirmasi saat pemesanan.</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-gallery" id="galeri" aria-labelledby="gallery-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="section-label" data-i18n="gallery.label">Galeri</p>
+          <h2 id="gallery-title" data-i18n="gallery.title">Nusantara dalam bingkai</h2>
+          <p class="section-lead" data-i18n="gallery.lead">Enam potret dari rute yang kami jalankan. Klik foto untuk melihat versi besar.</p>
+        </header>
+
+        <ul class="gallery-grid">
+          <li class="gallery-item gallery-item--wide">
+            <button class="gallery-btn" type="button" data-full="assets/img/gal-prambanan.jpg"
+                    data-caption="Prambanan, Jawa Tengah" data-caption-key="gallery.cap1" data-alt="Candi Prambanan dengan latar langit cerah" data-i18n-aria="gallery.open">
+              <img src="assets/img/gal-prambanan.jpg" width="1280" height="853" loading="lazy" decoding="async" alt="Candi Prambanan dengan latar langit cerah" data-i18n-alt="gallery.alt1">
+              <span class="gallery-caption" data-i18n="gallery.cap1">Prambanan, Jawa Tengah</span>
+            </button>
+          </li>
+          <li class="gallery-item">
+            <button class="gallery-btn" type="button" data-full="assets/img/gal-padar.jpg"
+                    data-caption="Pulau Padar, Nusa Tenggara Timur" data-caption-key="gallery.cap2" data-alt="Pulau Padar dengan tiga teluk dan laut biru" data-i18n-aria="gallery.open">
+              <img src="assets/img/gal-padar.jpg" width="1280" height="960" loading="lazy" decoding="async" alt="Pulau Padar dengan tiga teluk dan laut biru" data-i18n-alt="gallery.alt2">
+              <span class="gallery-caption" data-i18n="gallery.cap2">Pulau Padar, Nusa Tenggara Timur</span>
+            </button>
+          </li>
+          <li class="gallery-item">
+            <button class="gallery-btn" type="button" data-full="assets/img/gal-gili-boats.jpg"
+                    data-caption="Gili Islands, Nusa Tenggara Barat" data-caption-key="gallery.cap3" data-alt="Perahu di perairan Gili Islands dengan awan tebal" data-i18n-aria="gallery.open">
+              <img src="assets/img/gal-gili-boats.jpg" width="1280" height="853" loading="lazy" decoding="async" alt="Perahu di perairan Gili Islands dengan awan tebal" data-i18n-alt="gallery.alt3">
+              <span class="gallery-caption" data-i18n="gallery.cap3">Gili Islands, Nusa Tenggara Barat</span>
+            </button>
+          </li>
+          <li class="gallery-item">
+            <button class="gallery-btn" type="button" data-full="assets/img/gal-bromo.jpg"
+                    data-caption="Bromo, Jawa Timur" data-caption-key="gallery.cap4" data-alt="Gunung Bromo saat matahari terbit" data-i18n-aria="gallery.open">
+              <img src="assets/img/gal-bromo.jpg" width="1280" height="853" loading="lazy" decoding="async" alt="Gunung Bromo saat matahari terbit" data-i18n-alt="gallery.alt4">
+              <span class="gallery-caption" data-i18n="gallery.cap4">Bromo, Jawa Timur</span>
+            </button>
+          </li>
+          <li class="gallery-item">
+            <button class="gallery-btn" type="button" data-full="assets/img/gal-ubud-rice.jpg"
+                    data-caption="Tegalalang, Bali" data-caption-key="gallery.cap5" data-alt="Sawah terasering Tegalalang di Ubud" data-i18n-aria="gallery.open">
+              <img src="assets/img/gal-ubud-rice.jpg" width="1280" height="853" loading="lazy" decoding="async" alt="Sawah terasering Tegalalang di Ubud" data-i18n-alt="gallery.alt5">
+              <span class="gallery-caption" data-i18n="gallery.cap5">Tegalalang, Bali</span>
+            </button>
+          </li>
+          <li class="gallery-item">
+            <button class="gallery-btn" type="button" data-full="assets/img/dest-tanah-lot.jpg"
+                    data-caption="Tanah Lot, Bali" data-caption-key="gallery.cap6" data-alt="Pura Tanah Lot di atas batu karang" data-i18n-aria="gallery.open">
+              <img src="assets/img/dest-tanah-lot.jpg" width="1280" height="853" loading="lazy" decoding="async" alt="Pura Tanah Lot di atas batu karang" data-i18n-alt="gallery.alt6">
+              <span class="gallery-caption" data-i18n="gallery.cap6">Tanah Lot, Bali</span>
+            </button>
+          </li>
+        </ul>
+
+        <p class="gallery-note" data-i18n="gallery.note">Video tur virtual akan ditambahkan setelah materi video tersedia.</p>
+      </div>
+    </section>
+
+    <section class="section section-testimonials" id="testimoni" aria-labelledby="testimonials-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="section-label" data-i18n="testimonials.label">Testimoni</p>
+          <h2 id="testimonials-title" data-i18n="testimonials.title">Kata pelanggan</h2>
+          <p class="section-lead" data-i18n="testimonials.lead">Ulasan pelanggan yang sudah melakukan perjalanan bersama Nusantara Travel.</p>
+          <p class="section-note section-note--light" data-i18n="testimonials.note">Contoh tata letak. Ulasan asli belum tersedia.</p>
+        </header>
+
+        <div class="testimonial-grid">
+          <article class="testimonial-card">
+            <span class="placeholder-tag" data-i18n="testimonials.badge">Contoh</span>
+            <div class="stars" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9L12 3z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9L12 3z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9L12 3z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9L12 3z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9L12 3z"/></svg>
+            </div>
+            <blockquote><p data-i18n="testimonials.quote">[Tulis ulasan asli pelanggan di sini, termasuk rute dan tanggal perjalanan.]</p></blockquote>
+            <footer class="testimonial-person">
+              <span class="avatar-placeholder" aria-hidden="true">[ ]</span>
+              <span class="testimonial-meta">
+                <strong data-i18n="testimonials.name">[NAMA PELANGGAN]</strong>
+                <span data-i18n="testimonials.meta">[KOTA, TAHUN]</span>
+              </span>
+            </footer>
+          </article>
+
+          <article class="testimonial-card">
+            <span class="placeholder-tag" data-i18n="testimonials.badge">Contoh</span>
+            <div class="stars" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9L12 3z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9L12 3z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9L12 3z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9L12 3z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9L12 3z"/></svg>
+            </div>
+            <blockquote><p data-i18n="testimonials.quote">[Tulis ulasan asli pelanggan di sini, termasuk rute dan tanggal perjalanan.]</p></blockquote>
+            <footer class="testimonial-person">
+              <span class="avatar-placeholder" aria-hidden="true">[ ]</span>
+              <span class="testimonial-meta">
+                <strong data-i18n="testimonials.name">[NAMA PELANGGAN]</strong>
+                <span data-i18n="testimonials.meta">[KOTA, TAHUN]</span>
+              </span>
+            </footer>
+          </article>
+
+          <article class="testimonial-card">
+            <span class="placeholder-tag" data-i18n="testimonials.badge">Contoh</span>
+            <div class="stars" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9L12 3z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9L12 3z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9L12 3z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9L12 3z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9L12 3z"/></svg>
+            </div>
+            <blockquote><p data-i18n="testimonials.quote">[Tulis ulasan asli pelanggan di sini, termasuk rute dan tanggal perjalanan.]</p></blockquote>
+            <footer class="testimonial-person">
+              <span class="avatar-placeholder" aria-hidden="true">[ ]</span>
+              <span class="testimonial-meta">
+                <strong data-i18n="testimonials.name">[NAMA PELANGGAN]</strong>
+                <span data-i18n="testimonials.meta">[KOTA, TAHUN]</span>
+              </span>
+            </footer>
+          </article>
+        </div>
+
+        <div class="payment-strip">
+          <p class="payment-strip-title" data-i18n="testimonials.paymentsTitle">Metode pembayaran yang didukung</p>
+          <ul class="payment-list">
+            <li data-i18n="pay.va">Transfer bank / VA</li>
+            <li data-i18n="pay.qris">QRIS</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-booking" id="booking" aria-labelledby="booking-title">
+      <div class="container">
+        <header class="section-head section-head--dark">
+          <p class="section-label" data-i18n="booking.label">Pemesanan</p>
+          <h2 id="booking-title" data-i18n="booking.title">Amankan kursi Anda</h2>
+          <p class="section-lead" data-i18n="booking.lead">Isi data di bawah. Kami menghubungi Anda lewat WhatsApp untuk konfirmasi ketersediaan dan pembayaran.</p>
+        </header>
+
+        <div class="booking-layout">
+          <form class="booking-form" id="booking-form" novalidate>
+            <div class="form-grid">
+              <div class="form-field">
+                <label for="book-name" data-i18n="booking.name">Nama lengkap</label>
+                <input type="text" id="book-name" name="name" autocomplete="name" required aria-describedby="err-name">
+                <p class="field-error" id="err-name" role="alert" hidden></p>
+              </div>
+              <div class="form-field">
+                <label for="book-email" data-i18n="booking.email">Email</label>
+                <input type="email" id="book-email" name="email" autocomplete="email" required aria-describedby="err-email">
+                <p class="field-error" id="err-email" role="alert" hidden></p>
+              </div>
+              <div class="form-field">
+                <label for="book-phone" data-i18n="booking.phone">Nomor WhatsApp</label>
+                <input type="tel" id="book-phone" name="phone" autocomplete="tel" inputmode="tel" placeholder="0812 3456 7890" required aria-describedby="err-phone">
+                <p class="field-error" id="err-phone" role="alert" hidden></p>
+              </div>
+              <div class="form-field">
+                <label for="book-package" data-i18n="booking.package">Paket</label>
+                <select id="book-package" name="package" required aria-describedby="err-package">
+                  <option value="borobudur">Borobudur dan Yogyakarta</option>
+                  <option value="rajaampat">Raja Ampat dan Piaynemo</option>
+                  <option value="komodo">Komodo dan Padar</option>
+                  <option value="ubud">Ubud dan Tegalalang</option>
+                  <option value="gili">Gili Islands</option>
+                  <option value="bromo">Bromo dan Malang</option>
+                </select>
+                <p class="field-error" id="err-package" role="alert" hidden></p>
+              </div>
+              <div class="form-field">
+                <label for="book-date" data-i18n="booking.date">Tanggal keberangkatan</label>
+                <input type="date" id="book-date" name="date" required aria-describedby="err-date">
+                <p class="field-error" id="err-date" role="alert" hidden></p>
+              </div>
+              <div class="form-field">
+                <label for="book-participants" data-i18n="booking.participants">Jumlah peserta</label>
+                <input type="number" id="book-participants" name="participants" min="1" max="30" step="1" value="2" inputmode="numeric" required aria-describedby="err-participants">
+                <p class="field-error" id="err-participants" role="alert" hidden></p>
+              </div>
+              <div class="form-field form-field--full">
+                <fieldset class="fieldset fieldset--inline">
+                  <legend class="field-label" data-i18n="booking.paymentChoice">Pilihan pembayaran</legend>
+                  <div class="option-grid">
+                    <label class="option">
+                      <input type="radio" name="paymentType" value="full" checked>
+                      <span class="option-text">
+                        <span class="option-title" data-i18n="booking.payFull">Bayar lunas</span>
+                      </span>
+                    </label>
+                    <label class="option">
+                      <input type="radio" name="paymentType" value="dp">
+                      <span class="option-text">
+                        <span class="option-title" data-i18n="booking.payDp">DP 30%</span>
+                      </span>
+                    </label>
+                  </div>
+                </fieldset>
+              </div>
+              <div class="form-field form-field--full">
+                <fieldset class="fieldset fieldset--inline">
+                  <legend class="field-label" data-i18n="booking.method">Metode pembayaran</legend>
+                  <div class="option-grid option-grid--methods">
+                    <label class="option"><input type="radio" name="method" value="va" checked><span class="option-text"><span class="option-title" data-i18n="pay.va">Transfer bank / VA</span></span></label>
+                    <label class="option"><input type="radio" name="method" value="qris"><span class="option-text"><span class="option-title" data-i18n="pay.qris">QRIS</span></span></label>
+                  </div>
+                  <p class="field-error" id="err-method" role="alert" hidden></p>
+                </fieldset>
+              </div>
+              <div class="form-field form-field--full">
+                <label for="book-notes" data-i18n="booking.notes">Catatan (opsional)</label>
+                <textarea id="book-notes" name="notes" rows="3" data-i18n-placeholder="booking.notesPlaceholder" placeholder="Kebutuhan bahasa, makanan, atau permintaan khusus lain."></textarea>
+              </div>
+            </div>
+
+            <div class="form-actions">
+              <p class="form-error" id="booking-error" role="alert" hidden></p>
+              <button class="btn btn-primary btn-block" type="submit" id="booking-submit">
+                <span class="btn-text" data-i18n="booking.submit">Kirim pesanan</span>
+              </button>
+              <p class="form-disclaimer" id="booking-disclaimer" data-i18n="booking.disclaimer">Ini halaman demo. Tidak ada transaksi nyata yang diproses.</p>
+            </div>
+          </form>
+
+          <div class="booking-success" id="booking-success" hidden tabindex="-1">
+            <span class="success-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M4 12.5l5 5L20 6.5"/></svg>
+            </span>
+            <h3 data-i18n="booking.successTitle">Pesanan diterima</h3>
+            <p data-i18n="booking.successText">Ringkasan pesanan disimpan di halaman demo ini. Tim akan menghubungi Anda lewat WhatsApp.</p>
+
+            <div class="pay-panel" id="pay-panel" hidden>
+              <div class="pay-amount">
+                <span data-i18n="pay.amountLabel">Jumlah yang harus dibayar</span>
+                <strong id="pay-amount">-</strong>
+              </div>
+
+              <div class="pay-block" id="pay-va" hidden>
+                <span class="pay-block-label" data-i18n="pay.vaLabel">Nomor Virtual Account</span>
+                <div class="pay-copy-row">
+                  <code id="pay-va-number">-</code>
+                  <button class="btn btn-outline btn-sm" type="button" id="pay-va-copy" data-i18n="pay.copyVa">Salin</button>
+                </div>
+                <p class="pay-help" id="pay-va-bank"></p>
+              </div>
+
+              <div class="pay-block" id="pay-qr" hidden>
+                <span class="pay-block-label" data-i18n="pay.qrLabel">Pindai kode QR</span>
+                <img class="pay-qr-image" id="pay-qr-image" alt="" width="240" height="240" loading="lazy" decoding="async">
+              </div>
+
+              <p class="pay-expiry" id="pay-expiry"></p>
+
+              <button class="btn btn-primary btn-block" type="button" id="pay-check">
+                <span class="btn-text" data-i18n="pay.check">Cek status pembayaran</span>
+              </button>
+            </div>
+
+            <div class="pay-panel pay-panel-balance" id="balance-panel" hidden>
+              <div class="pay-panel-head">
+                <h4 data-i18n="balance.heading">Sisa pelunasan</h4>
+                <span class="status-chip" id="balance-status" hidden>-</span>
+              </div>
+              <p class="pay-help" id="balance-note"></p>
+
+              <div class="pay-amount">
+                <span data-i18n="balance.amountLabel">Sisa yang harus dibayar</span>
+                <strong id="balance-amount">-</strong>
+              </div>
+
+              <div class="pay-block" id="balance-va" hidden>
+                <span class="pay-block-label" data-i18n="pay.vaLabel">Nomor Virtual Account</span>
+                <div class="pay-copy-row">
+                  <code id="balance-va-number">-</code>
+                  <button class="btn btn-outline btn-sm" type="button" id="balance-va-copy" data-i18n="pay.copyVa">Salin</button>
+                </div>
+                <p class="pay-help" id="balance-va-bank"></p>
+              </div>
+
+              <div class="pay-block" id="balance-qr" hidden>
+                <span class="pay-block-label" data-i18n="pay.qrLabel">Pindai kode QR</span>
+                <img class="pay-qr-image" id="balance-qr-image" alt="" width="240" height="240" loading="lazy" decoding="async">
+              </div>
+
+              <p class="pay-expiry" id="balance-expiry"></p>
+            </div>
+
+            <dl class="success-details">
+              <div><dt data-i18n="booking.successCode">Kode pesanan</dt><dd id="success-code">NT-0000</dd></div>
+              <div><dt data-i18n="booking.package">Paket</dt><dd id="success-package">-</dd></div>
+              <div><dt data-i18n="booking.participants">Jumlah peserta</dt><dd id="success-participants">-</dd></div>
+              <div><dt data-i18n="booking.total">Total</dt><dd id="success-total">-</dd></div>
+              <div><dt data-i18n="booking.paymentChoice">Pilihan pembayaran</dt><dd id="success-payment-type">Bayar lunas</dd></div>
+              <div><dt data-i18n="booking.payNow">Dibayar sekarang</dt><dd id="success-paynow">-</dd></div>
+              <div><dt data-i18n="booking.method">Metode pembayaran</dt><dd id="success-method">Transfer bank / VA</dd></div>
+              <div><dt data-i18n="booking.successStatus">Status pembayaran</dt><dd><span class="status-chip" id="success-status">Menunggu (demo)</span></dd></div>
+            </dl>
+            <p class="success-note" id="success-note" data-i18n="booking.successNote">Tidak ada pembayaran yang diproses. Hubungkan payment gateway untuk transaksi nyata.</p>
+            <div class="success-actions">
+              <button class="btn btn-primary" type="button" id="success-copy" data-i18n="booking.copySummary">Salin ringkasan pesanan</button>
+              <button class="btn btn-outline" type="button" id="success-again" data-i18n="booking.again">Buat pesanan lain</button>
+            </div>
+            <p class="calc-status" id="success-copy-status" role="status" aria-live="polite"></p>
+          </div>
+
+          <aside class="booking-summary" id="booking-summary" aria-labelledby="booking-summary-title">
+            <h3 id="booking-summary-title" data-i18n="booking.summaryTitle">Ringkasan pesanan</h3>
+            <dl class="summary-rows">
+              <div><dt data-i18n="booking.package">Paket</dt><dd id="book-sum-package">Borobudur dan Yogyakarta</dd></div>
+              <div><dt data-i18n="calc.row.accommodation">Akomodasi</dt><dd id="book-sum-accommodation">Bintang 3</dd></div>
+              <div><dt data-i18n="booking.participants">Jumlah peserta</dt><dd id="book-sum-participants">2</dd></div>
+              <div><dt data-i18n="calc.row.addons">Add-on</dt><dd id="book-sum-addons">Tidak ada</dd></div>
+              <div><dt data-i18n="booking.method">Metode pembayaran</dt><dd id="book-sum-method">Transfer bank / VA</dd></div>
+              <div><dt data-i18n="booking.total">Total</dt><dd id="book-sum-total">Rp 0</dd></div>
+              <div class="summary-highlight"><dt data-i18n="booking.payNow">Dibayar sekarang</dt><dd id="book-sum-paynow">Rp 0</dd></div>
+              <div><dt data-i18n="booking.remaining">Sisa pelunasan</dt><dd id="book-sum-remaining">Rp 0</dd></div>
+            </dl>
+            <p class="booking-summary-note" data-i18n="calc.disclaimer">Estimasi memakai harga contoh dan belum termasuk tiket pesawat. Total final dikonfirmasi saat pemesanan.</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-faq" id="faq" aria-labelledby="faq-title">
+      <div class="container container-narrow">
+        <header class="section-head">
+          <p class="section-label" data-i18n="faq.label">Pertanyaan Umum</p>
+          <h2 id="faq-title" data-i18n="faq.title">Hal yang sering ditanyakan</h2>
+        </header>
+
+        <div class="faq-list">
+          <div class="faq-item">
+            <h3><button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-1" id="faq-q1">
+              <span data-i18n="faq.q1">Apakah harga paket sudah termasuk tiket pesawat?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button></h3>
+            <div class="faq-answer" id="faq-1" role="region" aria-labelledby="faq-q1" hidden>
+              <p data-i18n="faq.a1">Belum. Harga di kalkulator mencakup transport lokal, akomodasi, pemandu, dan add-on yang dipilih. Tiket pesawat dihitung terpisah.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <h3><button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-2" id="faq-q2">
+              <span data-i18n="faq.q2">Bisa bayar DP atau harus lunas?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button></h3>
+            <div class="faq-answer" id="faq-2" role="region" aria-labelledby="faq-q2" hidden>
+              <p data-i18n="faq.a2">Bisa keduanya. DP sebesar 30% dari total, sisanya dilunasi sebelum tanggal keberangkatan. Pilihan ini ada di formulir pemesanan.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <h3><button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-3" id="faq-q3">
+              <span data-i18n="faq.q3">Apakah pemandu bisa berbahasa Inggris?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button></h3>
+            <div class="faq-answer" id="faq-3" role="region" aria-labelledby="faq-q3" hidden>
+              <p data-i18n="faq.a3">Bisa. Pemandu berbahasa Inggris tersedia untuk paket Raja Ampat, Komodo, dan Bromo. Sebutkan kebutuhan bahasa di kolom catatan.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <h3><button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-4" id="faq-q4">
+              <span data-i18n="faq.q4">Bagaimana jika saya perlu membatalkan?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button></h3>
+            <div class="faq-answer" id="faq-4" role="region" aria-labelledby="faq-q4" hidden>
+              <p data-i18n="faq.a4">Hubungi kami lewat WhatsApp secepatnya. Ketentuan pembatalan mengikuti proposal yang dikirim saat konfirmasi pesanan.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <h3><button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-5" id="faq-q5">
+              <span data-i18n="faq.q5">Bisa untuk rombongan kantor atau gathering?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button></h3>
+            <div class="faq-answer" id="faq-5" role="region" aria-labelledby="faq-q5" hidden>
+              <p data-i18n="faq.a5">Bisa. Untuk 10 peserta atau lebih, kami menyusun jadwal dan anggaran terpisah. Tulis kebutuhan Anda di kolom catatan.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <h3><button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-6" id="faq-q6">
+              <span data-i18n="faq.q6">Apakah anak kecil dikenakan harga penuh?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button></h3>
+            <div class="faq-answer" id="faq-6" role="region" aria-labelledby="faq-q6" hidden>
+              <p data-i18n="faq.a6">Anak di bawah 5 tahun tidak dikenakan biaya akomodasi. Anak 5 tahun ke atas dihitung sebagai peserta dewasa. Konfirmasi saat pemesanan.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="kontak">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand brand--footer" href="#top" aria-label="Nusantara Travel, kembali ke atas">
+          <svg class="brand-mark" viewBox="0 0 44 40" aria-hidden="true" focusable="false">
+            <path d="M2 34 L16.5 7 L31 34" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linejoin="round"/>
+            <path d="M18 34 L28 14.5 L42 34 Z" fill="currentColor" opacity="0.82"/>
+          </svg>
+          <span class="brand-text">NUSANTARA<span class="brand-sub">TRAVEL</span></span>
+        </a>
+        <p class="footer-tagline" data-i18n="footer.tagline">Paket wisata Indonesia dengan pemandu lokal dan harga yang bisa dihitung sejak awal.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4 data-i18n="footer.explore">Jelajahi</h4>
+        <ul class="footer-links">
+          <li><a href="#paket" data-i18n="nav.packages">Paket Wisata</a></li>
+          <li><a href="#kalkulator" data-i18n="nav.calculator">Kalkulator Biaya</a></li>
+          <li><a href="#galeri" data-i18n="nav.gallery">Galeri</a></li>
+          <li><a href="#faq" data-i18n="footer.faq">Pertanyaan Umum</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 data-i18n="footer.contact">Kontak</h4>
+        <ul class="footer-links footer-links--contact">
+          <li><a href="mailto:hello@nusantaratravel.example" data-i18n="footer.email">hello@nusantaratravel.example</a></li>
+          <li><a href="https://wa.me/6281200000000" target="_blank" rel="noopener" id="footer-wa" data-i18n="footer.phone">WhatsApp: +62 812-0000-0000</a></li>
+          <li><span data-i18n="footer.location">Labuan Bajo, Nusa Tenggara Timur</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; <span id="year">2026</span> Nusantara Travel. <span data-i18n="footer.demo">Halaman demo. Harga, ulasan, nomor kontak, dan ketersediaan adalah contoh.</span></p>
+      <a href="credits.html" data-i18n="footer.credits">Kredit foto</a>
+    </div>
+  </footer>
+
+  <a class="wa-float" href="https://wa.me/6281200000000" target="_blank" rel="noopener" id="wa-float" aria-label="Chat WhatsApp, nomor contoh">
+    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+      <path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm0 18.2c-1.6 0-3.1-.4-4.5-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1112 20.2z"/>
+      <path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.4-2.3-1.4-.8-.8-1.4-1.7-1.6-2-.2-.3 0-.4.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5 0-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4 0 1.4 1 2.8 1.2 3 .1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3z"/>
+    </svg>
+    <span class="wa-float-label">WhatsApp</span>
+  </a>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-labelledby="lightbox-caption" hidden>
+    <button class="lightbox-close" type="button" id="lightbox-close" aria-label="Tutup galeri" data-i18n-aria="gallery.close">
+      <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <button class="lightbox-nav lightbox-prev" type="button" id="lightbox-prev" aria-label="Foto sebelumnya" data-i18n-aria="gallery.prev">
+      <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M15 5l-7 7 7 7"/></svg>
+    </button>
+    <figure class="lightbox-figure">
+      <img id="lightbox-img" src="" alt="">
+      <figcaption id="lightbox-caption"></figcaption>
+    </figure>
+    <button class="lightbox-nav lightbox-next" type="button" id="lightbox-next" aria-label="Foto berikutnya" data-i18n-aria="gallery.next">
+      <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9 5l7 7-7 7"/></svg>
+    </button>
+  </div>
+
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

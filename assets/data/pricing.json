@@ -1,0 +1,24 @@
+{
+  "currency": "IDR",
+  "depositShare": 0.3,
+  "packages": [
+    { "id": "borobudur", "price": 1850000 },
+    { "id": "rajaampat", "price": 6750000 },
+    { "id": "komodo", "price": 4250000 },
+    { "id": "ubud", "price": 1450000 },
+    { "id": "gili", "price": 3150000 },
+    { "id": "bromo", "price": 1650000 }
+  ],
+  "accommodation": [
+    { "id": "homestay", "multiplier": 0.85 },
+    { "id": "star3", "multiplier": 1 },
+    { "id": "star4", "multiplier": 1.25 },
+    { "id": "star5", "multiplier": 1.55 }
+  ],
+  "addons": [
+    { "id": "drone", "price": 750000, "per": "trip" },
+    { "id": "airport", "price": 250000, "per": "person" },
+    { "id": "insurance", "price": 150000, "per": "person" },
+    { "id": "meals", "price": 200000, "per": "person" }
+  ]
+}

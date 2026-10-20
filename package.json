@@ -1,0 +1,17 @@
+{
+  "name": "nusantara-travel",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Nusantara Travel landing page, booking API, and Midtrans integration",
+  "scripts": {
+    "dev": "node server/dev.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "pg": "^8.13.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
